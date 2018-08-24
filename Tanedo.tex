@@ -2,8 +2,7 @@
 % Revised 25 September 2015
 % based on: http://tinyurl.com/2s57g3
 
-%% THIS VERSION USES XELATEX
-%% along with some fonts I have
+%% THIS VERSION USES XELATEX (and my fonts)
 
 \documentclass[margin,line]{resume}
 \usepackage{hyperref}
@@ -20,42 +19,30 @@ Ligatures=TeX,
 UprightFont={*Light},
 LetterSpace=5.0
 ]{Titillium Web}
-%
-%\newfontfamily\mydate[
-%Ligatures=TeX, 
-%%UprightFont={*UltraLight},
-%LetterSpace=2.0
-%]{Titillium Web}
-%%]{Helvetica Neue}
-\newcommand{\mydate}{}
 
-%\newfontfamily\mytalk[
-%Ligatures=TeX, 
-%%UprightFont={*Light},
-%LetterSpace=5.0
-%]{Arno Pro}
 
 
 \setlength\textheight{9.6in}
 \newcommand{\mytalksep}{-.1mm}
 \newcommand{\mytalkskip}{2mm}
 
-
 \newcommand{\scap}[1]{\textsc{\MakeLowercase{#1}}}
 
-%% ======================================================================= %%
+
+
+
+
 
 \begin{document}
 \name{\Large 
-%\myname 
 Philip (Flip) Tanedo%, Ph.D
 }
 \begin{resume}
 
-%% ======================================================================= %%
-% Contact Information
 
-%\section{\mysidestyle Contact\\Information}
+
+
+%% CONTACT INFORMATION
 
 \section{\footnotesize \sc
 \sffamily 
@@ -64,18 +51,13 @@ Philip (Flip) Tanedo%, Ph.D
 
 3054 Physics Building
 \hfill 
-%Office: +1 949 824 6911           
-%\href{mailto:flip.tanedo@uci.edu}{\myweb flip.tanedo@uci.edu}
-%\url{http://github.com/fliptanedo}
 {\myweb 951 827 6168}
 \vspace{0mm}%
 \\
 %
 \vspace{0mm}%
-%Dept.~Physics \& Astronomy, 
 University of California
 \hfill
-% e-mail: \url{flip.tanedo@uci.edu}
 \href{mailto:flip.tanedo@ucr.edu}{\myweb flip.tanedo@ucr.edu}
 \vspace{0mm}%
 \\
@@ -88,124 +70,100 @@ Riverside, CA 92521, USA
 \vspace{-4.5mm}%
 \vspace{-2mm}
 
-%%%
-%\vspace{-2mm}
-%\section{\footnotesize \sc
-%\sffamily 
-%\addfontfeature{LetterSpace=10.0}CITIZENSHIP
-%}
-%
-%USA
-%
-%\vspace{-4mm}
-%
-%% ======================================================================= %%
-% Research Interests
 
-%\section{\mysidestyle Research\\ Interests}
+
+
+%% RESEARCH
 
 \section{\footnotesize \sc \sffamily 
-\addfontfeature{LetterSpace=10.0}RESEARCH\\INTERESTS}
+\addfontfeature{LetterSpace=10.0}RESEARCH}
 
 
-My research focuses on models of dark matter and electroweak symmetry breaking and their phenomenology at high-energy colliders and astro-particle experiments. 
+My research connects theories of new physics with novel experimental signatures at particle and astro-particle experiments. My primary focus is the fundamental description of dark matter.
 
 \vspace{-3mm}
 
-%\section{\mysidestyle Employment}
+
+
+
+
+%% EMPLOYMENT
+
 \section{\footnotesize \sc
 \sffamily 
 \addfontfeature{LetterSpace=10.0}EMPLOYMENT
 }
 
-
-
-\textbf{University of California, Riverside} %. Postdoctoral Scholar.
+\textbf{University of California, Riverside} 
 \hfill 
-%\textbf{2013} -- \textbf{2016}
-{\mydate 
-2016 -- \phantom{2016}
-}\vspace{-3mm}\\
+\textsf{ 2016 -- \phantom{2016} }
+\\
+Assistant Professor, Department of Physics \& Astronomy
 
-\vspace{-6mm}
-Assistant Professor, Department of Physics \& Astronomy   %(2014 -- 2015)
+
 \vspace{-3mm}
 
-\textbf{University of California, Irvine} %. Postdoctoral Scholar.
+
+\textbf{University of California, Irvine} 
 \hfill 
-%\textbf{2013} -- \textbf{2016}
-{\mydate 
+\textsf{ 
 2013 -- 2016
 }\vspace{-3mm}\\
 
 \vspace{-6mm}
-Postdoctoral Scholar, Chancellor's \textsc{advance} Postdoctoral Fellow   %(2014 -- 2015)
-\vspace{-3mm}
+Postdoctoral Scholar, Chancellor's \textsc{advance} Postdoctoral Fellow   
 
 
-%% ======================================================================= %%
-% Education
+%\vspace{-3mm}
 
-%\section{\mysidestyle Education}
+
+
+
+% EDUCATION
+
 \section{\footnotesize \sc
 \sffamily 
 \addfontfeature{LetterSpace=10.0}
 EDUCATION
 }
 
-
 \textbf{Cornell University}, Ithaca, New York \\
+Advisor: Csaba Cs\'aki; 
 \textsl{Doctor of Philosophy (2013), Master of Science (2010)} 
 \hfill 
-%\textbf{2008 -- 2013}
-{\mydate 
-2008 -- 2013
-}\vspace{-3mm}\\
+\textsf{ 2008 -- 2013 }
 
-\vspace{-1.5em}
-\noindent Advisor: Csaba Cs\'aki
-
-\vspace{-1.7mm}
-
-%% ----------------------------------------------------------------------- %%
+\vspace{-3mm}
 
 \textbf{Durham University} (Josephine Butler College), Durham, \scap{UK} \\
 \textsl{Master of Science by Research} 
 \hfill 
-%\textbf{2007 -- 2008}
-{\mydate 
-2007 -- 2008
-}\vspace{-1.7mm}
+\textsf{ 2007 -- 2008 }
 
-%% ----------------------------------------------------------------------- %%
+\vspace{-3mm}
 
 \textbf{Cambridge University} (Trinity College), Cambridge, \scap{UK} \\
 \textsl{Master of Advanced Study in Mathematics with Merit} 
 \hfill 
-%\textbf{2006 -- 2007}
-{\mydate 
-2006 -- 2007
-}\vspace{-3mm}\\
-\vspace{-1mm}
-\vspace{-1.7mm}
+\textsf{ 2006 -- 2007 }
 
-%% ----------------------------------------------------------------------- %%
+\vspace{-3mm}
 
 \textbf{Stanford University}, Stanford, California \\
 \textsl{Bachelor of Science in Physics and Mathematics with Honors and Distinction} 
 \hfill 
-%\textbf{2002 -- 2006}
-{\mydate 
-2002 -- 2006
-}\vspace{-3mm}\\
-\vspace{-1mm}
-\vspace{-.5mm}
+\textsf{ 2002 -- 2006 }
 
 
-%% ======================================================================= %%
-% Honors and Awards
+%\vspace{-3mm}
 
-%\section{\mysidestyle Honors and\\Awards} 
+
+
+
+
+
+%% HONORS AND AWARDS
+
 \section{\footnotesize \sc
 \sffamily 
 \addfontfeature{LetterSpace=10.0}
@@ -213,79 +171,86 @@ FELLOWSHIPS \& HONORS
 }
 
 \scap{UCI} Chancellor's \scap{ADVANCE} Postdoctoral Fellowship%
-%\footnote{
-%	Eligible for \scap{PPFP} faculty hiring incentive for 5 years of salary and start-up from the \scap{UC} Office of the President.
-%	} 
 \hfill% 
-	{\mydate 
-2014 -- 2015
-}\vspace{.7mm}\\
-%
+\textsf{ 2014 -- 2015 }
+
+\vspace{-3mm}
+
+
 Ford Foundation Dissertation Fellowship, Honorable Mention 
 \hfill%
-{\mydate
-2012
-}\vspace{.7mm}\\
-%
+\textsf{ 2012 }
+
+\vspace{-3mm}
+
+
 Paul \& Daisy Soros Fellowship for New Americans
 \hfill%
-{\mydate
-2010 -- 2012
-}\vspace{.7mm}\\
-%
+\textsf{ 2010 -- 2012 }
+
+\vspace{-3mm}
+
 Ford Foundation Predoctoral Fellowship, Honorable Mention 
 \hfill%
-{\mydate
-2010
-}\vspace{.7mm}\\
-%
+\textsf{ 2010 }
+
+\vspace{-3mm}
+
+
 National Science Foundation Graduate Research Fellowship
 \hfill
-{\mydate
-2006 -- 2011
-}\vspace{.7mm}\\
-%
+\textsf{ 2006 -- 2011 }
+
+\vspace{-3mm}
+
+
 Marshall Scholarship
 \hfill
-{\mydate
-2006 -- 2008
-}\vspace{.7mm}\\
-%
+\textsf{ 2006 -- 2008 }
+
+\vspace{-3mm}
+
+
 Barry M. Goldwater Scholarship
 \hfill
-{\mydate
-2005 -- 2006
-}\vspace{.7mm}\\    
-\vspace{-6mm}
+\textsf{ 2005 -- 2006 }
 
 
-%%% ======================================================================= %%
+
 %% Publications
 %% Use CVgen4LaTeX script to convert InSpires output into LaTeX
-%
-%%\section{\mysidestyle Selected Publications}
+
 \section{\footnotesize \sc
 \sffamily 
 \addfontfeature{LetterSpace=10.0}PUBLICATIONS
 }
 
+%\cite{Green:2018qwo}
+%\bibitem{Green:2018qwo} 
+``\texttt{DarkCapPy}: Dark Matter Capture and Annihilation,''
+  A.~Green and P.~Tanedo,
+  \texttt{arXiv:1808.03700 [hep-ph]}, \emph{submitted to Computer Physics Communications.}
+\vspace{-2mm}
 
-%\cite{Raj:2017wrv}
-%\bibitem{Raj:2017wrv} 
+%\cite{Grossman:2017thq}
+%\bibitem{Grossman:2017thq} 
+``Just a Taste:\ Lectures on Flavor Physics,''
+  Y.~Grossman and P.~Tanedo,
+ Proceedings, 2016 Theoretical Advanced Studies Institute.
+  {\small 10.1142/9789813233348\_0004}
+  \texttt{arXiv:1711.03624 [hep-ph]}.
+\vspace{-2mm}
+
 ``Neutron stars at the dark matter direct detection frontier,''
   N.~Raj, P.~Tanedo and H.~B.~Yu,
-    \texttt{arXiv:1707.09442 [hep-ph]},
-  \emph{Submitted to Phys.~Rev.~Lett.}
-  %%CITATION = ARXIV:1707.09442;%%
-   \vspace{-2mm}
+  Phys.\ Rev.\ D {\bf 97} (2018) no.4 043006
+\texttt{arXiv:1707.09442 [hep-ph]}.
+\vspace{-2mm}
 
-%\cite{Smolinsky:2017fvb}
-%\bibitem{Smolinsky:2017fvb} 
-  ``Dark Photons from Captured Inelastic Dark Matter Annihilation: Charged Particle Signatures,''
+``Dark Photons from Captured Inelastic Dark Matter Annihilation: Charged Particle Signatures,''
   J.~Smolinsky and P.~Tanedo,
   Phys.\ Rev.\ D {\bf 95} no.7,  075015 (2017)
-  \texttt{arXiv:1701.03168 [hep-ph]}.  %%CITATION = ARXIV:1701.03168;%%
-  %2 citations counted in INSPIRE as of 29 Mar 2017
+  \texttt{arXiv:1701.03168 [hep-ph]}.  
   \vspace{-2mm}
 
 %\cite{Karwin:2016tsw}
@@ -298,14 +263,6 @@ Barry M. Goldwater Scholarship
   %7 citations counted in INSPIRE as of 29 Mar 2017
 	\vspace{-2mm}
 
-%%\cite{Galon:2016bka}
-%%\bibitem{Galon:2016bka} 
-%  ``Lepton-Flavor Violating Mediators,''
-%    I.~Galon, A.~Kwa and P.~Tanedo,
-%  \texttt{arXiv:1610.08060 [hep-ph]}. 
-%  \emph{Submitted to JHEP}
-%  %%CITATION = ARXIV:1610.08060;%%
-%    \vspace{-2mm}
     
 %\cite{Galon:2016bka}
 %\bibitem{Galon:2016bka} 
@@ -548,6 +505,58 @@ TALKS \&
 INVITED SEMINARS
 }
 
+``\emph{Dark Matter Complementarity / Is the WIMP Dead?}'' 
+\vspace{\mytalksep}\\ 
+Harvey Mudd Physics Colloquium, Pomona, \scap{CA}
+\hfill %
+Nov.~2018
+\vspace{\mytalksep}\\ 
+\scap{USC} Physics Colloquium, Los Angeles, \scap{CA}
+\hfill %
+Oct.~2018
+\vspace{\mytalksep}\\ 
+The Small-Scale Structure of Cold (?) Dark Matter\\
+	Invited talk, Kavli Institute for Theoretical Physics, Santa Barbara, \scap{CA}
+\hfill %
+Jun.~2018
+\vspace{\mytalkskip}\\   
+%
+%
+%
+``\emph{Composite Mediators}'' 
+\vspace{\mytalksep}\\ 
+Santa Fe Workshop: Trending Topics in \scap{HEP}, %\\
+Plenary talk, Santa Fe, \scap{NM}
+\hfill %
+Jul.~2018\vspace{\mytalksep}\\  
+%
+Matter Detection and Detectability: Paradigm Confirmation or Shift?\\
+Invited talk, Kavli Institute for Theoretical Physics, Santa Barbara, \scap{CA}
+\hfill %
+Apr.~2018\vspace{\mytalksep}\\  
+%
+Particle Theory Seminar, Lawrence Berkeley National Laboratory, Berkeley, \scap{CA}
+\hfill %
+Apr.~2018\vspace{\mytalksep}\\  
+%
+American Physical Society April Meeting, Columbus, \scap{OH}
+\hfill %
+Apr.~2018\vspace{\mytalksep}\\  
+%
+T-2 Seminar, Los Alamos National Laboratory, Los Alamos, \textsc{NM}
+\hfill %
+Mar.~2018\vspace{\mytalkskip}\\   
+%
+%
+%
+``\emph{Light Mediators to Dark Sectors}'' 
+\vspace{\mytalksep}\\ 
+Invited talk, American Physical Society April Meeting, Columbus, \scap{OH}
+\hfill %
+Apr.~2018\vspace{\mytalkskip}\\   
+%
+%
+%
 ``\emph{Light mediators and terrestrial dark matter capture}'' 
 \vspace{\mytalksep}\\ 
 New Directions in Dark Matter and Neutrino Physics,\\
@@ -993,11 +1002,14 @@ Dec.~2007%\vspace{\mytalkskip}\\
 \addfontfeature{LetterSpace=10.0}ORGANIZED ACTIVITIES
 }
 
-Southern California Beyond the Standard Model, \scap{UCR}, Riverisde, \scap{CA}\\
-Main workshop organizer, the first in a series of workshops to better connect the Southern California particle physics community. The workshop was well received and we are currently planning the next workshop at \scap{UCLA} with the intent of making this an annual tradition.
-%\hfill 5 - 10
-\hfill Apr.~2017\vspace{.7mm}\\   
+\textbf{Workshop Organizer:} Southern California Beyond the Standard Model \vspace{\mytalksep}\\
 %
+SoCal BSM 2017, \scap{UCR}, Riverside, \scap{CA}
+\hfill Apr.~2017\vspace{\mytalksep}
+\\
+%
+SoCal BSM 2019, \scap{UCLA}, Los Angeles, \scap{CA}
+\hfill Jan.~2019 
 
 
 
@@ -1015,6 +1027,21 @@ Main workshop organizer, the first in a series of workshops to better connect th
 CONFERENCES
 }
 
+Flavor of New Physics in Collisions, 
+%% ALSO:
+% Understanding the Origin of the Baryon Asymmetry in the Universe
+Aspen Center for Physics, Aspen, \scap{CO}
+%\hfill 17 
+\hfill Aug.~2018\vspace{.7mm}\\   
+%
+Santa Fe Workshop: Trending Topics in \textsc{HEP}, Santa Fe, \scap{NM}
+%\hfill 17 
+\hfill Jul.~2018\vspace{.7mm}\\   
+%   
+American Physical Society April Meeting, Columbus, \scap{OH}
+%\hfill 17 
+\hfill Apr.~2018\vspace{.7mm}\\   
+%   
 Dark Matter in Southern California IV Symposium, Pasadena, \scap{CA}
 %\hfill 17 
 \hfill Sep.~2017\vspace{.7mm}\\   
@@ -1124,7 +1151,7 @@ Feb. 2015\vspace{.7mm}\\
 %9 -- 10 
 Oct. 2014\vspace{.7mm}\\   
 %
-Model Building in the \scap{LHC} Era, Aspen Center for Physics
+Model Building in the \scap{LHC} Era, Aspen Center for Physics, Aspen, \scap{CO}
 %\hfill 3 -- 17 
 \hfill Aug.~2014\vspace{.7mm}\\   
 %
@@ -1264,11 +1291,11 @@ TEACHING
 \vspace{0mm}%
 %
 \textsl{Lecturer}, Physics 165: Particle Physics
-\hfill {Winter 2018}\\
+\hfill {Winter 2018, 2019}\\
 \vspace{0mm}%
 %
 \textsl{Lecturer}, Physics 231: Methods in Theoretical Physics
-\hfill {Fall 2016, 2017}\\
+\hfill {Fall 2016, 2017, 2018}\\
 \vspace{0mm}%
 %
 \textsl{Lecturer}, Physics 208: General Relativity
@@ -1327,6 +1354,46 @@ TEACHING
 \addfontfeature{LetterSpace=10.0}RECENT PRESS
 }
 
+``Dark Matter Eludes Particle Physicists''
+\scap{NPR} Science Friday
+\hfill Jun. 2018
+\vspace{.7mm}
+\\
+``What's the Universe Made of?''
+\scap{NOVA} Wonders 
+\hfill May 2018
+\vspace{.7mm}
+\\
+``\emph{Nova Wonders} Asks 'What's the Universe Made Of' Tonight,''\\
+Sarah Lewin, \texttt{Space.com} \& Facebook Live interview  
+% \scap{UCR} \emph{Today}
+\hfill May 2018
+\vspace{.7mm}
+\\
+``\scap{NOVA} Wonders Episode to Feature \scap{UCR} Expert on Dark Matter,''\\
+ Iqbal Pittalwala, 
+ \scap{UCR} \emph{Today}
+ \hfill Apr. 2018
+\vspace{.7mm}
+\\
+``Physicists Win Two Awards at Science Hack Day,''
+ Iqbal Pittalwala, 
+ \scap{UCR} \emph{Today}
+ \hfill Oct. 2017
+\vspace{.7mm}
+\\
+``\scap{UCR} physicists win `Best in Show' and `Most Whimsical' at Science Hack Day,''\\
+	Cydney Contreras, \emph{The Highlander}
+	\hfill Oct.~2017\vspace{.7mm}
+	\\
+``Physicists Offer Explanation for Diverse Galaxy Rotations,''	\\
+ Iqbal Pittalwala, 
+ \scap{UCR} \emph{Science News}
+ \hfill Sep. 2017
+\vspace{.7mm}
+\\
+``Generation: First'' \scap{UCR} \emph{Magazine}, Win. 2018 (Vol 13, No. 1)
+\\
 ``Protophobic Fifth-Force Interpretation of the Observed Anomaly in $^{8}$Be,''\\
 	Physical Review Letters; 
 	Altmetric attention score\footnote{Top 5\% of all research outputs, \#5 output from Phys.~Rev.~Lett., 99th percentile for outputs of the same age and source; \url{http://aps.altmetric.com/details/6976772}}: 977
@@ -1356,16 +1423,17 @@ Featured on \url{pinoyscientists.com} (Filipino Scientists)
 %\section{\mysidestyle Service}
 \section{\footnotesize \sc
 \sffamily 
-\addfontfeature{LetterSpace=10.0}SERVICE
+\addfontfeature{LetterSpace=10.0}REFEREEING
 }
 
 
+Referee record is available at \url{https://publons.com/author/637273/philip-tanedo}.
 
 \textbf{Referee:} \emph{Physics Review D} (\scap{APS})
-\hfill 2014, 2015\vspace{.3mm}\\
+\hfill 2014, 2015, 2017, 2018\vspace{.3mm}\\
 %
 \textbf{Referee:} \emph{European Physical Journal C} (Springer)
-\hfill 2014, 2017\vspace{.3mm}\\
+\hfill 2014, 2017 -- 2018\vspace{.3mm}\\
 %
 \textbf{Referee:} \emph{Physics of the Dark Universe} (Elsevier)
 \hfill 2013, 2015\vspace{.3mm}\\
@@ -1379,21 +1447,65 @@ Featured on \url{pinoyscientists.com} (Filipino Scientists)
 
 
 
-%\section{\mysidestyle Service}
+\section{\footnotesize \sc
+\sffamily 
+\addfontfeature{LetterSpace=10.0}SERVICE
+}
+
+
+
+\textbf{Mentor:} \scap{APS} National Mentoring Community
+\hfill 2018 -- \phantom{2018}%\vspace{.3mm}\\
+
+%*** sciexchange
+
+
+
+
+\section{\footnotesize \sc
+\sffamily 
+\addfontfeature{LetterSpace=10.0}UNIVERSITY SERVICE
+}
+
+
+\textbf{Mentor}: \scap{UCR} Graduate Student Mentoring Program
+ \hfill {2017 -- {2018}}\vspace{.3mm}\\
+%
+\textbf{Discussion leader}: \scap{UCR} GradEdge/JumpStart summer journal club
+ \hfill {2017}\vspace{-.75mm}
+ \\
+\phantom{..} {\small Led a journal club to prepare incoming under-represented minority grad students.}
+\vspace{.3mm}\\
+\textbf{Media contact}: \scap{UCR} Experts on Demand
+ \hfill {2016 -- {2018}}
+ %\\
+ %
+
+
+
+
+
+
+
 \section{\footnotesize \sc
 \sffamily 
 \addfontfeature{LetterSpace=10.0}DEPARTMENT SERVICE
 }
 
-
+\textbf{Committee:}  Website
+\hfill 2017 -- \phantom{2017}\vspace{.3mm}\\
+%
 \textbf{Committee:}  Outreach
 \hfill 2017 -- \phantom{2017}\vspace{.3mm}\\
 %
 \textbf{Committee:}  Graduate Diversity
 \hfill 2017 -- \phantom{2017}\vspace{.3mm}\\
 %
+\textbf{Organizer}: \scap{UCR} Physics Hack Day
+ \hfill {2016 -- \phantom{2017}}\\
+%
 \textbf{Committee:}  Co-Chair: Summer Academy for \scap{HS} teachers
-\hfill 2016 -- {2017}\vspace{.3mm}\\
+\hfill 2016 -- {2018}\vspace{.3mm}\\
 %
 \textbf{Committee:}  Early Universe Hiring Committee
 \hfill 2016 -- 2017\vspace{.3mm}\\
@@ -1408,7 +1520,11 @@ Featured on \url{pinoyscientists.com} (Filipino Scientists)
 \hfill 2016 -- 2017\vspace{.3mm}\\
 %
 \textbf{Committee \& Advising:} Undergraduate Advisor
-\hfill 2016 -- \phantom{2017}\vspace{.3mm}%\\
+\hfill 2016 -- {2017}\vspace{.3mm}\\
+%
+\textbf{Social Media Outreach:}  Particle Theory Twitter (\texttt{\@UCR\_HEP\_Theory})
+\hfill 2017 -- \phantom{2017}%\vspace{.3mm}\\
+
 
 
 
@@ -1421,31 +1537,23 @@ Featured on \url{pinoyscientists.com} (Filipino Scientists)
 \sffamily 
 \addfontfeature{LetterSpace=10.0}OUTREACH
 }
-
+%
+\textbf{Participant} (\scap{UCR} leader): Science Hack Day (won best in show, most whimsical)
+ \hfill {2017}\vspace{-.75mm}
+\\
+%
 \textbf{Organizer}: ParticleBites \emph{en Espa\~nol}, a Spanish-language physics outreach blog
  \hfill {2017 -- \phantom{2017}}\vspace{-.75mm}
 \\
+%
 \phantom{..} {\small Spanish-language outreach blog for particle physics.}
 \\
 %
-\textbf{Mentor}: \scap{UCR} GradEdge program for graduate students
- \hfill {2017 -- \phantom{2017}}
-\\
-%
-\textbf{Discussion leader}: \scap{UCR} GradEdge/JumpStart summer journal club
- \hfill {2017}\vspace{-.75mm}
- \\
-\phantom{..} {\small Led a journal club to prepare incoming under-represented minority grad students.}
- \\
- %
- \textbf{Mentor}: Paul \& Daisy Soros Fellowship for New Americans
- \hfill {2017 -- \phantom{2018}}\\
+\textbf{Mentor}: Paul \& Daisy Soros Fellowship for New Americans
+ \hfill {2017 -- {2018}}\\
 %
 \textbf{Discussion leader}: \scap{UC} President's Fellow Spring Retreat; career navigation
  \hfill {2017}\\
-%
-\textbf{Organizer}: \scap{UCR} Physics Hack Day
- \hfill {2016 -- \phantom{2017}}\\
 %
 \textbf{Organizer}: Physical \& Natural Science Book Club (Cellar Door Bookstore)
  \hfill {2016 -- \phantom{2016}}\vspace{-.75mm}
@@ -1478,6 +1586,19 @@ Featured on \url{pinoyscientists.com} (Filipino Scientists)
 \addfontfeature{LetterSpace=10.0}OUTREACH TALKS \& PANELS
 }
 
+``\emph{The Physics of Star Wars}''\vspace{\mytalksep}\\ 
+\scap{UCR} \scap{ARTS}block film screening and discussion \hfill May.~{2018}\vspace{\mytalkskip}\\ 
+``\emph{Breaking into Academia}''\vspace{\mytalksep}\\ 
+\scap{UCR} \scap{TRIO} Scholars Program \hfill Apr.~{2018}\vspace{\mytalkskip}\\ 
+%
+``\emph{First-Gen Day Faculty Panel}''\vspace{\mytalksep}\\ 
+\scap{UCR} First Generation Friday Panel \hfill Jan.~{2018}\vspace{\mytalkskip}\\ 
+%
+``\emph{Surviving the Academic Job Market}''\vspace{\mytalksep}\\ 
+\scap{UCR} Grad Success Panel \hfill Nov.~{2017}\vspace{\mytalkskip}\\ 
+%
+``\emph{First Generation Academics}''\vspace{\mytalksep}\\ 
+\scap{UCR} Grad Success Panel \hfill Nov.~{2017}\vspace{\mytalkskip}\\ 
 %
 ``\emph{I have no idea: A guide to finding your way in science}''\vspace{\mytalksep}\\ 
 Middle School Symposium talk, Riverside \scap{STEM} Academy \hfill Sep.~{2017}\vspace{\mytalksep}\\ 
@@ -1522,17 +1643,23 @@ May~2008%\vspace{\mytalkskip}\\
 \addfontfeature{LetterSpace=10.0}ADVISING
 }
 
+\textbf{Adam Green}, Ph.D student, \scap{UC} Riverside
+ \hfill {2018 -- \phantom{2017}}\\
+%
+\textbf{Kuntal Pal}, Ph.D student, \scap{UC} Riverside
+ \hfill {2018 -- \phantom{2017}}\\
+%
 \textbf{Ian Chaffey}, Ph.D student, \scap{UC} Riverside
  \hfill {2017 -- \phantom{2017}}\\
 %
 \textbf{Syris Norelli}, undergraduate researcher, \scap{UC} Riverside
- \hfill {2017 -- \phantom{2017}}\\
+ \hfill {2017 -- 2018}\\
 %
 \textbf{Adam Green}, undergraduate researcher, \scap{UC} Riverside
- \hfill {2016 -- \phantom{2017}}\\
+ \hfill {2016 -- {2017}}\\
 %
 \textbf{Ran Huo}, Postdoctoral Scholar, \scap{UC} Riverside
- \hfill {2016 -- \phantom{2017}}\\
+ \hfill {2016 -- 2018}\\
 
 
 
@@ -1542,3 +1669,4 @@ May~2008%\vspace{\mytalkskip}\\
 \end{resume}
 \end{document}
 
+  
